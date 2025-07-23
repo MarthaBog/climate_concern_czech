@@ -140,6 +140,18 @@ I can say that:
 
 ### Model 2 Education and employment status
 
+The chart shows that across all employment groups, females consistently report higher climate responsibility than males.
+
+The highest levels of responsibility are seen in:
+
+1. Paid work (both genders)
+2. Education (especially females)
+
+The lowest average scores are in:
+
+1. Unemployed (both looking and not looking for jobs)
+2. Permanently sick/disabled
+
 ![Image](images/education_status.png)
 
 ### Model 3 Income level and responsibility
