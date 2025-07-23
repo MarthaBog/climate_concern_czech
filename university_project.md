@@ -4,9 +4,11 @@
 
 Explore and explain how different factors are connected in one specific country by using multiple linear regression.
 
-The homework is based on the European Social Survey dataset.
-[http://www.europeansocialsurvey.org/](http://www.europeansocialsurvey.org/)
+The homework is based on the European Social Survey dataset:
+[The European Social Survey ](http://www.europeansocialsurvey.org/)
 
+Also I used Spreadsheet to create tables and graphs:
+[Spreadsheet with tables](https://docs.google.com/spreadsheets/d/1YG3ZQdxRdu9yBhpzajHtwnG32fPJWxOF-rZwP2dZCOg/edit?gid=0#gid=0)
 
 ## Task 1
 
