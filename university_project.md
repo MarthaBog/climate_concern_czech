@@ -123,3 +123,31 @@ In conclusion, while all three countries show a sense of personal responsibility
 ## Task 2
 
 How different personal factors explain whether and how a person feels a sense of personal responsibility to reduce climate change?
+
+### Model 1 Age and gender
+
+This chart is showing a **relationship between age, gender, and how responsible people feel about climate change**.
+
+I can say that:
+
+1. The feeling of climate responsibility slightly decreases with age.
+2. Gender matters too — women show a bit more responsibility than men.
+3. But the differences aren’t huge — it's a subtle trend, not a dramatic one.
+
+![Image](images/age_gender.png)
+
+### Model 2 Education and employment status
+
+![Image](images/education_status.png)
+
+### Model 3 Income level and responsibility
+
+![Image](images/income_responsibility.png)
+
+### Model 4 Residence and responsibility
+
+![Image](images/residence_esponsibility.png)
+
+### Model 5 Gender and climate concern
+
+![Image](images/gender_climate_concern.png)
