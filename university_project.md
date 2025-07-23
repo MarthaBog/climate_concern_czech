@@ -107,7 +107,7 @@ This histogram shows how responsible people in the Czech Republic feel about hel
 
 ![Image](images/climate_responsibility.png)
 
-### 2. In addition to your selected country, compare how respondents from two other countries feel about their personal responsibility to try to reduce climate change.
+### 2. In addition to selected country, compare how respondents from two other countries feel about their personal responsibility to try to reduce climate change.
 
 This bar chart below shows how people from Czechia, France, and Bulgaria feel about their personal responsibility to fight climate change. The scale goes from 1 (strongly disagree) to 9 (strongly agree).
 
@@ -115,7 +115,7 @@ This bar chart below shows how people from Czechia, France, and Bulgaria feel ab
 - **France** (orange): People in France were more positive. Most picked 7, 8, and 9, showing they strongly agree they have personal responsibility. France had the highest number of people choosing 8.
 - **Bulgaria** (red): Responses are similar to Czechia. Many people chose 5 and 7, showing mixed but moderate agreement.
 
-In conclusion, while all three countries show a sense of personal responsibility toward climate change, people in France express it the most strongly, whereas Czechia and Bulgaria show more moderate and balanced views.
+In conclusion, while all three countries show a sense of personal responsibility toward climate change, people in **France express it the most** strongly, whereas Czechia and Bulgaria show more moderate and balanced views.
 
 ![Image](images/countries_comparison.png)
 
