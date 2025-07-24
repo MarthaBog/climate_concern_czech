@@ -185,3 +185,6 @@ ggplot(cz5, aes(x = climate_concern, y = kliima_kohustus, color = gender)) +
     y = "Climate Responsibility"
   ) +
   theme_minimal()
+
+
+
