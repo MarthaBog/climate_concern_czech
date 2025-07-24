@@ -1,37 +1,32 @@
-# University project
+# University project - Climate concern in Czech Republic
 
-## Project's main task:
+## Main Objective
 
-Explore and explain how different factors are connected in one specific country by using multiple linear regression.
+The purpose of this project is to explore and explain how various personal factors influence climate change attitudes in a selected country, using multiple linear regression.
 
-The homework is based on the European Social Survey dataset:
-[The European Social Survey ](http://www.europeansocialsurvey.org/)
+This analysis is based on data from the [The European Social Survey ](http://www.europeansocialsurvey.org/)
 
-Also I used Spreadsheet to create tables and graphs:
+A spreadsheet was also created to visualize some of the graphs.:
 [Spreadsheet with tables](https://docs.google.com/spreadsheets/d/1YG3ZQdxRdu9yBhpzajHtwnG32fPJWxOF-rZwP2dZCOg/edit?gid=0#gid=0)
 
 ## Task 1
 
-Analyze the following relationships in the context of your chosen country:
+**My task is to find out how strongly respondents feel personally responsible for helping to reduce climate change.**
 
-### 1. To what extent do respondents feel a personal responsibility to try to reduce climate change?
+### 1. This analysis focuses on the Czech Republic
 
-In this research, I selected the **Czech Republic.**
-The chart below shows the **age** distribution **of all survey participants**.
-The **youngest** participant was **15 years old** and the **oldest was **90 years old.** The average age of all respondents was 48 years.
-As we can see, **most** respondents were **between the ages of 40 and 60**. Fewer people participated in the younger (under 30) and older (over 75) age groups.
+The chart below shows the **age distribution** of all respondents:
+
+- The youngest participant was **15**, and the oldest was **90**
+- The **average** age was **48 years**
+- The majority of respondents were between **40 and 60 years old**
+- Fewer people were under **30** or over **75**
 
 ![Image](images/age.png)
 
-People answered questions about their education, income, and climate-related topics in the survey.
-
 #### Education level
 
-Below are the data about education. The information about the meaning of special symbols at the bottom is taken from:
-
-https://github.com/MarthaBog/Climate_Impact_University/blob/main/ESS10_2020questionnaires_EE_est.pdf
-
-Here are the education categories used:
+Survey respondents reported their level of education, categorized according to the ISCED system:
 
 - ES-ISCED I – Less than lower secondary education
 - ES-ISCED II – Lower secondary education
@@ -41,80 +36,83 @@ Here are the education categories used:
 - ES-ISCED V1 – Lower tertiary education, such as a Bachelor's degree
 - ES-ISCED V2 – Higher tertiary education, Master's level or higher
 
-Respondents were asked about their level of education. The bar chart below shows how many people belong to each education category:
+The information about the ISCED system is taken from:
 
-1. Most people in the Czech Republic have completed either lower or upper tier upper secondary education (ES-ISCED IIIb and IIIa).
-2. A smaller number of respondents have higher education, like Bachelor's or Master's degrees.
-3. Very few people have no formal education or did not respond to the question.
+https://github.com/MarthaBog/Climate_Impact_University/blob/main/ESS10_2020questionnaires_EE_est.pdf
+
+- **Most respondents** completed **lower or upper tier upper secondary education (ISCED IIIb and IIIa)**
+- A smaller group was with **tertiary degrees (Bachelor’s or Master’s)**
+- And the smallest group has **no formal education** or did not respond
 
 ![Image](images/education.png)
 
-#### Employment Status of respondents 
+#### Employment Status  
 
-Bar chart below shows the employment status of people who took part in the survey.
+Here's how employment is distributed:
 
-- **Most respondents** are in **paid work**, meaning they have a job.
-- The **second largest group** is **retired** people.
-- Some respondents are in **education**, which means they are students.
-- A smaller number are:
-
-  * **Unemployed** (looking or not looking for a job)
-  * **Permanently sick or disabled**
-  * Doing **housework or taking care of others**
-  * In **community or military service**
+- The **majority** were in **paid work**
+- The **second** largest group was **retired**
+- Others were students, unemployed, permanently sick/disabled, involved in housework/caregiving, or in military/community service
 
 ![Image](images/status.jpg)
 
-#### Income level of respondents 
+#### Income level 
 
-- The **largest group** said they are **“coping on present income”**, meaning they can manage but it’s not always easy.
-- Many people also said they are **“living comfortably on present income”** – they do not have big financial problems.
-- Some people reported that it is **“difficult”** or **“very difficult”** to live on their income.
+Respondents rated their financial situation:
+
+- The largest group reported **"coping on present income"**
+- A substantial number were **"living comfortably"**
+- Some found it **"difficult"** or **"very difficult"** to manage
 
 ![Image](images/income_level.jpg)
 
 #### Place of Residence
 
-- Big city – the largest group.
-- Country village group has second place
-- Town or small city - third place
-- suburbs or outskirts of a big city - fourth place 
+- **Big city** – the largest group.
+- **Country village** group has second place
+- **Town or small city** - third place
+- **Suburbs or outskirts** of a big city - fourth place 
 And only 0.2% live on a farm or in the countryside.
 
 ![Image](images/place_of_residence.jpg)
 
-#### Climate Concern
+#### Concern About Climate Change
 
-Bar chart below shows how concerned people in the Czech Republic are about climate change, using a scale from 1 to 9:
+Respondents rated their concern on a 1–9 scale:
 
-**1 means “not concerned at all,”**
+* 1 = not concerned at all
+* 9 = extremely concerned
 
-**9 means “extremely concerned.”**
+Findings:
 
-Here’s what we can see:
-
-1. The most common answer is 5, which suggests a neutral level of concern. 
-2. A large number of people also chose 7 and 6, meaning they are fairly concerned.
-3. Very few people selected 1 or 9, showing that extreme views (either not worried or very worried) are less common.
+- The **most** common answer was **5** (neutral concern)
+- **Many** chose **6 or 7** (moderate concern)
+- Very **few** selected **1 or 9**, indicating that extreme positions were uncommon
 
 ![Image](images/climate_concern.png)
 
-#### Climate Responsibility in the Czech Republic
+#### Personal Responsibility for Climate Change
 
-This histogram shows how responsible people in the Czech Republic feel about helping to reduce climate change. The scale goes from 1 (not responsible at all) to 9 (very responsible).
+Respondents were asked how responsible they personally feel about reducing climate change, also on a 1–9 scale:
 
-1. Most people answered 5, which means many feel somewhat responsible.
-2. A large number also chose 6 and 7, showing a moderate to high sense of responsibility.
-3. Very few people picked 1 or 9, so extreme opinions were less common.
+- **Most** chose **5**, indicating **moderate responsibility**
+- Many also selected **6 or 7**
+- Very **few** chose the **extremes** (1 or 9)
+
+This suggests that while people feel some responsibility, few express extreme views.
 
 ![Image](images/climate_responsibility.png)
 
-### 2. In addition to selected country, compare how respondents from two other countries feel about their personal responsibility to try to reduce climate change.
+### 2. Comparison of three chosen countries: Czechia, France, and Bulgaria.
 
-This bar chart below shows how people from Czechia, France, and Bulgaria feel about their personal responsibility to fight climate change. The scale goes from 1 (strongly disagree) to 9 (strongly agree).
+Comparing Czechia, France, and Bulgaria people about how they feel their personal responsibility to fight climate change, using 1–9 scale:
 
-- **Czechia** (yellow): Most people chose the middle values like 5, 6, and 7. This means they feel neutral to somewhat responsible. Fewer chose the strongest agreement (8–9) or disagreement (1–2).
-- **France** (orange): People in France were more positive. Most picked 7, 8, and 9, showing they strongly agree they have personal responsibility. France had the highest number of people choosing 8.
+- **Czechia** (yellow): Most people chose the middle values like 5, 6, and 7. 
+This means they feel neutral to somewhat responsible. Fewer chose the strongest agreement (8–9) or disagreement (1–2).
+
+- **France** (orange): People in France were more positive. Most picked 7, 8, and 9, showing they strongly agree they have personal responsibility. 
+France had the highest number of people choosing 8.
+
 - **Bulgaria** (red): Responses are similar to Czechia. Many people chose 5 and 7, showing mixed but moderate agreement.
 
 In conclusion, while all three countries show a sense of personal responsibility toward climate change, people in **France express it the most** strongly, whereas Czechia and Bulgaria show more moderate and balanced views.
@@ -124,44 +122,89 @@ In conclusion, while all three countries show a sense of personal responsibility
 
 ## Task 2
 
-How different personal factors explain whether and how a person feels a sense of personal responsibility to reduce climate change?
+This section uses multiple linear regression models to explore how personal characteristics — such as age, gender, income, education, and residence — influence the level of personal responsibility people feel to reduce climate change.
 
 ### Model 1 Age and gender
 
-This chart is showing a **relationship between age, gender, and how responsible people feel about climate change**.
+This model explores the relationship between **age, gender, and climate responsibility.**
 
-I can say that:
+Findings:
 
-1. The feeling of climate responsibility slightly decreases with age.
-2. Gender matters too — women show a bit more responsibility than men.
-3. But the differences aren’t huge — it's a subtle trend, not a dramatic one.
+- **Responsibility slightly decreases with age** — older individuals feel less responsible.
+- **Gender differences are present** — on average, **women** report slightly **higher** responsibility **than men.**
+- However, the differences across both variables are **modest**, not dramatic.
 
 ![Image](images/age_gender.png)
 
 ### Model 2 Education and employment status
 
-The chart shows that across all employment groups, females consistently report higher climate responsibility than males.
+This model explores how education and employment categories affect climate responsibility, especially by comparing men and women.
 
-The highest levels of responsibility are seen in:
+Key insights:
 
-1. Paid work (both genders)
-2. Education (especially females)
+- Females report higher responsibility than males across all employment types.
 
-The lowest average scores are in:
+Highest responsibility levels appear in:
 
-1. Unemployed (both looking and not looking for jobs)
-2. Permanently sick/disabled
+- People with paid work
+- People in education (especially women)
+
+Lowest responsibility levels are among:
+
+- Unemployed respondents
+- Those who are permanently sick or disabled
 
 ![Image](images/education_status.png)
 
 ### Model 3 Income level and responsibility
 
+This model explores the relationship between income level and climate responsibility, separately for men and women.
+
+Findings:
+
+- Individuals who are “living comfortably” show the highest climate responsibility.
+- The more people struggle financially - the less responsible they tend to feel for climate change..
+- Across nearly all income levels, women report higher responsibility than men.
+
 ![Image](images/income_responsibility.png)
 
 ### Model 4 Residence and responsibility
+
+This model explores how place of residence (urban vs. rural) affects climate responsibility, and how this varies by gender.
+
+Findings:
+
+- People living in urban areas report the highest responsibility.
+- People feel less and less responsible when it comes to:
+
+- Suburbs
+- Towns/villages
+- Rural areas
+
+- Women report higher responsibility than men across all residence types.
+- However, in rural areas, the difference between men and women becomes smaller.
 
 ![Image](images/residence_esponsibility.png)
 
 ### Model 5 Gender and climate concern
 
+This model explores the connection between how concerned people are about climate change and how much responsibility they feel, with a difference by gender.
+
+Findigs:
+
+- As concern increases, responsibility also increases — but not sharply
+- Both men and women follow this trend.
+- Women tend to feel a bit more responsible than men, no matter how concerned they are.
+- The line is almost flat, which shows that even if someone is very concerned, it doesn’t always mean they feel strongly responsible.
+
 ![Image](images/gender_climate_concern.png)
+
+## Conclusion
+
+Climate responsibility isn’t just about caring. It is influenced by a mix of **social, economic, and personal factors**. While many people are concerned about climate change, how responsible they feel can **depend** on things like **gender, income, where they live, their education**, and what is going on in their lives.
+
+This analysis shows that **just telling** people about climate change **isn’t enough.**
+For example, people **living comfortably** reported the **highest climate responsibility**, while those who faces financial difficulties felt less capable or motivated to act. Similarly, **urban residents** were *more likely to **feel responsible** than those who lives in rural areas, and **women** often reported **higher responsibility** than men across most models.
+
+These **patterns highlight** that engagement in climate action depends **not just on belief**, but on opportunity and support.
+That’s why climate policies and messages need to **fit people’s real lives** — so that no matter who they are or what their situation is, everyone has the chance and the support to be part of the solution.
