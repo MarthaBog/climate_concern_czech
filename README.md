@@ -17,7 +17,7 @@ A spreadsheet was also created to visualize some of the graphs.:
 
 The chart below shows the **age distribution** of all respondents:
 
-- The youngest participant was **15**, and the oldest was **90**
+- The youngest participant was **20**, and the oldest was **90**
 - The **average** age was **48 years**
 - The majority of respondents were between **40 and 60 years old**
 - Fewer people were under **30** or over **75**
