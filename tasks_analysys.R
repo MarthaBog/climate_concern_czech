@@ -157,8 +157,8 @@ summary(model4)
 
 # Plot regression with ggplot2
 ggplot(cz4, aes(x = residence, y = kliima_kohustus, color = gender)) +
-  geom_point(position = position_jitter(width = 0.2), alpha = 0.4) +  # Разбросанные точки с прозрачностью
-  geom_smooth(method = "lm", se = TRUE) +  # Регрессионные линии с доверительным интервалом
+  geom_point(position = position_jitter(width = 0.2), alpha = 0.4) +  
+  geom_smooth(method = "lm", se = TRUE) +  
   labs(
     title = "Regression of Climate Responsibility by Gender and Residence",
     x = "Residence Type",
